@@ -51,8 +51,6 @@ export const Footer = ({ width }: FooterProp) => {
                     <FaTwitterSquare />
                 </IconContext.Provider>
             </div >}
-
-
             <div className="text-center">
                 <hr className='opacity-50' />
                 <p className='text-sm sm:text-base p-2'>&#169; 2022 Tabur Tuai Group. All Rights Reserved</p>
