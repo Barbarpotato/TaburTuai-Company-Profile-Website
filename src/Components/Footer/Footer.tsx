@@ -36,23 +36,23 @@ export const Footer = ({ width }: FooterProp) => {
                     </IconContext.Provider>
                 </div>
             </div>
-            {width < 640 ? <div className='text-center py-4 px-4 sm:p-4 flex sm:flex-row sm:pt-14 sm:pl-14'>
-                <IconContext.Provider value={{ color: 'white', size: '25px' }}>
-                    <FaInstagramSquare className='w3-large' />
-                    <FaFacebookSquare />
-                    <FaLinkedin />
-                    <FaTwitterSquare />
-                </IconContext.Provider>
-            </div > : <div className='flex py-4 sm:flex-row sm:pt-14 sm:pl-14'>
-                <IconContext.Provider value={{ color: 'white', size: '35px' }}>
-                    <FaInstagramSquare className='w3-large' />
-                    <FaFacebookSquare />
-                    <FaLinkedin />
-                    <FaTwitterSquare />
-                </IconContext.Provider>
-            </div >}
             <div className="text-center">
                 <hr className='opacity-50' />
+                {width < 640 ? <div className='flex flex-row justify-center py-4'>
+                    <IconContext.Provider value={{ color: 'white', size: '20px' }}>
+                        <FaInstagramSquare className='w3-large' />
+                        <FaFacebookSquare />
+                        <FaLinkedin />
+                        <FaTwitterSquare />
+                    </IconContext.Provider>
+                </div > : <div className='flex flex-row justify-center py-4'>
+                    <IconContext.Provider value={{ color: 'white', size: '30px' }}>
+                        <FaInstagramSquare className='w3-large' />
+                        <FaFacebookSquare />
+                        <FaLinkedin />
+                        <FaTwitterSquare />
+                    </IconContext.Provider>
+                </div >}
                 <p className='text-sm sm:text-base p-2'>&#169; 2022 Tabur Tuai Group. All Rights Reserved</p>
             </div>
         </footer >

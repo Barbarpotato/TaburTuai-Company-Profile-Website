@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { DesktopNavBar } from './Components/Navigation/DesktopNavBar';
 import { MobileNavBar } from './Components/Navigation/MobileNavBar';
 import { Beranda } from './Components/Navigation/Beranda/Beranda';
+import { Produk } from './Components/Navigation/Produk/Produk';
 import { Footer } from './Components/Footer/Footer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route index element={<Beranda width={width}></Beranda>}></Route>
         <Route path='/Beranda' element={<Beranda width={width}></Beranda>}></Route>
+        <Route path='/Produk' element={<Produk width={width}></Produk>}></Route>
       </Routes>
       <Footer width={width} />
     </div >

@@ -76,7 +76,7 @@ export const DesktopNavBar = () => {
                             handleActiveNavBar(produk)
                         }} onMouseEnter={() => handleonMouseEnter(produk)}
                             onMouseLeave={() => handleonMouseLeave(produk)}
-                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} >Produk</Typography>
+                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }}><Link to={'/Produk'}>Produk</Link></Typography>
                         <Typography ref={blog} onClick={() => {
                             handleInactiveNavBar([beranda, tentang, mitra, produk, kontak])
                             handleActiveNavBar(blog)
