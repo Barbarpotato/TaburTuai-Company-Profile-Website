@@ -5,6 +5,7 @@ import { DesktopNavBar } from './Components/Navigation/DesktopNavBar';
 import { MobileNavBar } from './Components/Navigation/MobileNavBar';
 import { Beranda } from './Components/Navigation/Beranda/Beranda';
 import { Produk } from './Components/Navigation/Produk/Produk';
+import { Kontak } from './Components/Navigation/Kontak/Kontak';
 import { Footer } from './Components/Footer/Footer';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route index element={<Beranda width={width}></Beranda>}></Route>
         <Route path='/Beranda' element={<Beranda width={width}></Beranda>}></Route>
         <Route path='/Produk' element={<Produk width={width}></Produk>}></Route>
+        <Route path='/Kontak' element={<Kontak width={width}></Kontak>}></Route>
       </Routes>
       <Footer width={width} />
     </div >

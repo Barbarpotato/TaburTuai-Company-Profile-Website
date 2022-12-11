@@ -88,7 +88,7 @@ export const DesktopNavBar = () => {
                             handleActiveNavBar(kontak)
                         }} onMouseEnter={() => handleonMouseEnter(kontak)}
                             onMouseLeave={() => handleonMouseLeave(kontak)}
-                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }}>Kontak</Typography>
+                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }}><Link to={'/Kontak'}>Kontak</Link></Typography>
                     </Toolbar>
                 </AppBar>
             </Box>

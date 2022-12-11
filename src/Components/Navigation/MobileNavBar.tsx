@@ -82,7 +82,7 @@ export const MobileNavBar = ({ width }: MobileNavBarProps) => {
                         </Typography>
                         <Divider />
                         <Typography style={{ paddingTop: '15px' }} id="modal-modal-title" variant="h6" component="h2">
-                            <Link onClick={handleModal} to={'/Beranda'}>Kontak</Link>
+                            <Link onClick={handleModal} to={'/Kontak'}>Kontak</Link>
                         </Typography>
                     </Box>
                 </Modal>
