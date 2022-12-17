@@ -1,0 +1,11 @@
+.berandaBg {
+    background-image: linear-gradient(rgba(8, 90, 67, 0.5), rgba(8, 90, 67, 1)), url(./backgroundAbout.jpg)
+}
+
+.heading {
+    color: rgb(8, 90, 67)
+}
+
+.background {
+    background-color: rgb(8, 90, 67);
+}

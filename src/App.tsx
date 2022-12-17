@@ -4,7 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import { DesktopNavBar } from './Components/Navigation/DesktopNavBar';
 import { MobileNavBar } from './Components/Navigation/MobileNavBar';
 import { Beranda } from './Components/Navigation/Beranda/Beranda';
+import { About } from './Components/Navigation/About/About';
 import { Produk } from './Components/Navigation/Produk/Produk';
+import { Blog } from './Components/Navigation/Blog/Blog';
 import { Kontak } from './Components/Navigation/Kontak/Kontak';
 import { Footer } from './Components/Footer/Footer';
 
@@ -24,7 +26,9 @@ function App() {
       <Routes>
         <Route index element={<Beranda width={width}></Beranda>}></Route>
         <Route path='/Beranda' element={<Beranda width={width}></Beranda>}></Route>
+        <Route path='/About' element={<About width={width}></About>}></Route>
         <Route path='/Produk' element={<Produk width={width}></Produk>}></Route>
+        <Route path='/Blog' element={<Blog></Blog>}></Route>
         <Route path='/Kontak' element={<Kontak width={width}></Kontak>}></Route>
       </Routes>
       <Footer width={width} />

@@ -64,7 +64,7 @@ export const DesktopNavBar = () => {
                             handleActiveNavBar(tentang)
                         }} onMouseEnter={() => handleonMouseEnter(tentang)}
                             onMouseLeave={() => handleonMouseLeave(tentang)}
-                            variant='h6' id='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} >Tentang</Typography>
+                            variant='h6' id='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} ><Link to={'/About'}>Tentang</Link></Typography>
                         <Typography ref={mitra} onClick={() => {
                             handleInactiveNavBar([beranda, tentang, produk, blog, kontak])
                             handleActiveNavBar(mitra)
@@ -82,7 +82,7 @@ export const DesktopNavBar = () => {
                             handleActiveNavBar(blog)
                         }} onMouseEnter={() => handleonMouseEnter(blog)}
                             onMouseLeave={() => handleonMouseLeave(blog)}
-                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} >Blog</Typography>
+                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} ><Link to={'/Blog'}>Blog</Link></Typography>
                         <Typography ref={kontak} onClick={() => {
                             handleInactiveNavBar([beranda, tentang, mitra, produk, blog])
                             handleActiveNavBar(kontak)

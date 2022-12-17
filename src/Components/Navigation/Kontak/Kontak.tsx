@@ -16,9 +16,9 @@ export const Kontak = ({ width }: KontakProps) => {
             <div className="lg:m-16 xl:flex xl:flex-row">
                 <div className="lg:rounded-2xl lg:shadow-2xl bg-slate-50 p-8 lg:mx-4">
                     {width > 1020 ? <form>
-                        <TextField style={{ width: '500px', marginBottom: '30px' }} id="standard-basic" label="Nama Lengkap" variant="standard" />
-                        <TextField className='my-4' style={{ width: '500px', marginBottom: '30px' }} id="standard-basic" label="Email" variant="standard" />
-                        <TextField style={{ width: '500px' }} id="standard-basic" label="No.Telpon" variant="standard" />
+                        <TextField color='success' style={{ width: '500px', marginBottom: '30px' }} id="standard-basic" label="Nama Lengkap" variant="standard" />
+                        <TextField color='success' className='my-4' style={{ width: '500px', marginBottom: '30px' }} id="standard-basic" label="Email" variant="standard" />
+                        <TextField color='success' style={{ width: '500px' }} id="standard-basic" label="No.Telpon" variant="standard" />
                         <textarea
                             placeholder="Pesan"
                             style={{ width: 500, height: 230, marginTop: '30px', resize: 'none' }} /><br></br>

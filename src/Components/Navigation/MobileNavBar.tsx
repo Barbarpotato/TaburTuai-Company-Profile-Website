@@ -66,7 +66,7 @@ export const MobileNavBar = ({ width }: MobileNavBarProps) => {
                         </Typography>
                         <Divider />
                         <Typography style={{ paddingTop: '15px' }} id="modal-modal-title" variant="h6" component="h2">
-                            <Link onClick={handleModal} to={'/Beranda'}>Tentang</Link>
+                            <Link onClick={handleModal} to={'/About'}>Tentang</Link>
                         </Typography>
                         <Divider />
                         <Typography style={{ paddingTop: '15px' }} id="modal-modal-title" variant="h6" component="h2">
@@ -78,7 +78,7 @@ export const MobileNavBar = ({ width }: MobileNavBarProps) => {
                         </Typography>
                         <Divider />
                         <Typography style={{ paddingTop: '15px' }} id="modal-modal-title" variant="h6" component="h2">
-                            <Link onClick={handleModal} to={'/Beranda'}>Blog</Link>
+                            <Link onClick={handleModal} to={'/Blog'}>Blog</Link>
                         </Typography>
                         <Divider />
                         <Typography style={{ paddingTop: '15px' }} id="modal-modal-title" variant="h6" component="h2">
