@@ -70,7 +70,7 @@ export const DesktopNavBar = () => {
                             handleActiveNavBar(mitra)
                         }} onMouseEnter={() => handleonMouseEnter(mitra)}
                             onMouseLeave={() => handleonMouseLeave(mitra)}
-                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} >Mitra</Typography>
+                            variant='h6' className='navBar' style={{ color: 'rgb(8, 90, 67)', paddingRight: '30px' }} ><Link to={'/Mitra'}>Mitra</Link></Typography>
                         <Typography ref={produk} onClick={() => {
                             handleInactiveNavBar([beranda, tentang, mitra, blog, kontak])
                             handleActiveNavBar(produk)
@@ -92,6 +92,6 @@ export const DesktopNavBar = () => {
                     </Toolbar>
                 </AppBar>
             </Box>
-        </header>
+        </header >
     )
 }
